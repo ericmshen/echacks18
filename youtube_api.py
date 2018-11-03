@@ -1,5 +1,7 @@
 api_key = "AIzaSyAUI7WLUEooG_7SpnIdPBm7mVIKzDyoV9U"
 
+import webbrowser
+
 from datetime import datetime
 from apiclient.discovery import build
 
@@ -46,12 +48,20 @@ def get_videos_stats(video_ids):
 #for video in most_disliked:
 #    print(video['id'], video['statistics']['dislikeCount'])
 
-res = youtube.search().list(q='surfing',
+userQuery = ""
+
+def set_userQuery():
+    newQuery = input("What category of video do you want to see?: ")
+    userQuery = newQuery
+
+set_userQuery()
+
+res = youtube.search().list(q= userQuery,
                             part='snippet',
                             type='video',
-                            maxResults = 20,
-                            publishedAfter=start_time,
-                            publishedBefore=end_time).execute()
+                            maxResults = 1).execute()
+                            #publishedAfter=start_time,
+                            #publishedBefore=end_time).execute()
 
 #res = req.execute()
 
@@ -59,4 +69,6 @@ res = youtube.search().list(q='surfing',
 #    print(item['snippet']['title'], item['snippet']['publishedAt'], item['id']['videoId'])
 
 for item in res['items']:
-    print(item['id']['videoId'])
+    openedUrl = "https://www.youtube.com/watch?v=" + item['id']['videoId']
+
+webbrowser.open(openedUrl)
