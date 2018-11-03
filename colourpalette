@@ -4,4 +4,5 @@ light-blue: #82a6db
 orange: #fbb03b
 yellow: #ffeaa6
 
-font: raleway
+title font: raleway
+text font: geneva
