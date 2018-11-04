@@ -4,6 +4,8 @@
 
 Scantry is a mobile application that allows users to scan and categorize their food items real-time, keeping an inventory of what they have that can be accessed online.
 
+Made for ECHacks 2018.
+
 ## Inspiration ##
 We were inspired to build this app for two main factors. First, at this hackathon we were able to listen to a presentation about Machine Vision, which we found incredibly interesting. In fact, throughout the process of coming up with the idea for this project we focused on integrating and applying Clarifai's Machine Vision API in order to demonstrate the power of this concept.
 
