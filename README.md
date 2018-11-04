@@ -36,6 +36,7 @@ Other potential areas of expansion are extensions upon the idea of responsible m
 
 ## Gallery ##
 ![Screenshot1](https://i.imgur.com/TXXKfOt.png)
+
 The user interface of the mobile app. Below are buttons for picturing and classifying the objects seen in the camera view, and a button which takes the user to the list of their recorded items. 
 
 ![Screenshot2](https://i.imgur.com/xB9S7gX.jpg)
