@@ -39,11 +39,17 @@ Other potential areas of expansion are extensions upon the idea of responsible m
 
 The user interface of the mobile app. Below are buttons for picturing and classifying the objects seen in the camera view, and a button which takes the user to the list of their recorded items. 
 
+
 ![Screenshot2](https://i.imgur.com/xB9S7gX.jpg)
+
 Once an image is taken, objects are classified using the Clarifai API. Here, an orange has been classified (this is a different image from water bottle in the previous picture)
 
+
 ![Screenshot3](https://i.imgur.com/dbSdOje.jpg)
+
 List of the inventory the user has in the app.
 
+
 ![Website](https://i.imgur.com/qGnel46.png)
+
 The Scantry website; users can find their inventory of items online as well.
