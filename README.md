@@ -35,14 +35,14 @@ We will be very direct when we state that getting the Clarifai API to work was *
 Other potential areas of expansion are extensions upon the idea of responsible management of groceries/food. For example, we would like to set up a function that suggests recipes users can make using the groceries listed in their database. While ambitious, we would also like to add functionality with Google Home/Amazon Alexa devices, so that users could ask for and edit their grocery lists via verbal interaction with their smart home devices. This would be possible if we added compability and synchronization with those platforms, but that's a prospect for later.
 
 ## Gallery ##
-![Screenshot1](https://i.imgur.com/TXXKfOt.png =200x)
+![Screenshot1](https://i.imgur.com/TXXKfOt.png | width=200)
 The user interface of the mobile app. Below are buttons for picturing and classifying the objects seen in the camera view, and a button which takes the user to the list of their recorded items. 
 
-![Screenshot2](https://i.imgur.com/xB9S7gX.jpg =200x)
+![Screenshot2](https://i.imgur.com/xB9S7gX.jpg | width=200)
 Once an image is taken, objects are classified using the Clarifai API. Here, an orange has been classified (this is a different image from water bottle in the previous picture)
 
-![Screenshot3](https://i.imgur.com/dbSdOje.jpg =200x)
+![Screenshot3](https://i.imgur.com/dbSdOje.jpg | width=200)
 List of the inventory the user has in the app.
 
-![Website](https://i.imgur.com/qGnel46.png =200x)
+![Website](https://i.imgur.com/qGnel46.png | width=200)
 The Scantry website; users can find their inventory of items online as well.
