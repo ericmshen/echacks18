@@ -45,6 +45,8 @@ database.once('value', function(snapshot){
 
         $('#ex-table').append(content);
     }
+
+    if (Grocer)
 });
 
 </script>
@@ -61,7 +63,6 @@ database.once('value', function(snapshot){
         <span class="icon-bar"></span>
       </button>
       <img src="https://i.imgur.com/DFNmzn5.png" height="50" width="150">
-
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -100,14 +101,15 @@ database.once('value', function(snapshot){
 </div>
 
 <h1>Suggested Meals</h1>
-<script>
+<div id='kkk'>
+  <p> Fruit Salad: Apple <a href="https://www.allrecipes.com/recipe/214947/perfect-summer-fruit-salad/"> Recipe </a></p>
+  <img src="./documents/fruit.jpg" style="" width="500px" height="300px">
+</div>
+<div>
+  <p> Bacon and Egg Croissant <a href="https://www.garnishandglaze.com/bacon-egg-breakfast-croissants/"> Recipe </a></p>
+  <img src="./documents/cris2.jpg" style="" width="500px" height="300px">
+</div>
 
-  if(titleTask= Apple && titleTask=Orange){
-    document.write("Fruit Salad");
-    <img id="myImg" src="fruit.jpg">
-  }
-
-</script>
 
 </body>
 </html>
