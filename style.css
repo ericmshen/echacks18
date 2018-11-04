@@ -8,6 +8,11 @@
   src: url(https://fonts.googleapis.com/css?family=Montserrat);
 }
 
+@font-face {
+  font-family: Quicksand;
+  src: url(https://fonts.googleapis.com/css?family=Quicksand);
+}
+
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
